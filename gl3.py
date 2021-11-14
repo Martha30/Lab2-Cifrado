@@ -10,6 +10,7 @@
 import struct 
 
 
+
 def char(c):
   return struct.pack("=c", c.encode('ascii'))
 
